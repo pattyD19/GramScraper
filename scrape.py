@@ -14,7 +14,7 @@ import csv
 import sys
 import time
 
-#open CSV file
+#open CSV file to process
 f = open(sys.argv[1])
 csv_f = csv.reader(f)
 myList = []
